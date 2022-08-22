@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#topContainer {
+    display: flex;
+    background-color: #f78da7;
+    color: #f44563;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+}
+
+#discoButton {
+    position: absolute;
+    right: 50px;
+}
+
+#mainContainer {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#barChoise {
+    display: flex;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.buttonChoise {
+    width: 20%;
+    border: solid 3px #f44563;
+    border-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #f78da7;
+    margin: 1px;
+    cursor: pointer;
+}
+
+#buttonAddContainer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+}
+
+#selectedChoise {
+    background-color: #f78da7;
+    color: #f44563;
+}
+
+#listContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.listObjectContainer{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f78da7;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.mainInfoContainer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 90%;
+}
+

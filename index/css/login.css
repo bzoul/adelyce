@@ -4,6 +4,10 @@ body {
     margin: 0px;
 }
 
+button {
+    cursor: pointer;
+}
+
 #topContainer {
     display: flex;
     justify-content: center;

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="css/login.css">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script type="text/javascript" src="js/login.js"></script>
@@ -18,7 +18,7 @@
             <h3>LOGIN</h3>
             <div class="inputContainer">
                 <input class="inputConnect" type="text" placeholder="e-mail">
-                <input class="inputConnect" type="text" placeholder="password">
+                <input class="inputConnect" type="password" placeholder="password">
             </div>
             <div class="buttoncontainer">
                 <button id="register">Register</button>
