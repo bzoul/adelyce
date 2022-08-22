@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+    height: 90vh;
+    margin: 0px;
+}
+
+#topContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10%;
+    background-color: #f78da7;
+    color: #f44563;
+}
+
+#mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60%;
+    color: #2d2d2d;
+}
+
+.infoContainer {
+    border: solid 1px #2d2d2d;
+    height: 250px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #2d2d2d;
+}
+
+h3 {
+    height: 10%;
+    margin: 0px;
+}
+
+.inputContainer {
+    height: 70%;
+    width: 90%;
+}
+
+.inputConnect {
+    width: 90%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.buttoncontainer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 90%;
+    height: 10%;
+    margin-top: 10px;
+}
+
+#registerContainer {
+    display: none;
+}
