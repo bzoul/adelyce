@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,25 +20,31 @@
         <div class="infoContainer" id="loginContainer">
             <h3>LOGIN</h3>
             <div class="inputContainer">
-                <input class="inputConnect" type="text" placeholder="e-mail">
-                <input class="inputConnect" type="password" placeholder="password">
+                <div>email:</div>
+                <input id="login" class="inputConnect" type="email" placeholder="e-mail">
+                <div>password:</div>
+                <input id="password" class="inputConnect" type="password" placeholder="password">
             </div>
             <div class="buttoncontainer">
                 <button id="register">Register</button>
-                <button>Connection</button>
+                <button id="connection">Connection</button>
             </div>
         </div>
         <div class="infoContainer" id="registerContainer">
             <h3>REGISTER</h3>
             <div class="inputContainer">
-                <input class="inputConnect" type="text" placeholder="e-mail">
-                <input class="inputConnect" type="text" placeholder="firstname">
-                <input class="inputConnect" type="text" placeholder="lastname">
-                <input class="inputConnect" type="text" placeholder="password">
+                <div>email:</div>
+                <input id="email" class="inputConnect" type="email" placeholder="e-mail">
+                <div>firstname:</div>
+                <input id="firstname" class="inputConnect" type="text" placeholder="firstname">
+                <div>lastname:</div>
+                <input id="lastname" class="inputConnect" type="text" placeholder="lastname">
+                <div>password:</div>
+                <input id="passwordRegister" class="inputConnect" type="password" placeholder="password">
             </div>
             <div class="buttoncontainer">
-                <button id="login">Return</button>
-                <button>Connection</button>
+                <button id="returnLogin">Return</button>
+                <button id="registerUser" >Connection</button>
             </div>
         </div>
     </div>

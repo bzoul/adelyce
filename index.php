@@ -1,3 +1,3 @@
 <?php
-    require 'index/login.php'
+    require 'index/login.php';
 ?>

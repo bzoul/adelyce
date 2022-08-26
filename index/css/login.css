@@ -6,6 +6,7 @@ body {
 
 button {
     cursor: pointer;
+    user-select: none;
 }
 
 #topContainer {
@@ -28,7 +29,7 @@ button {
 
 .infoContainer {
     border: solid 1px #2d2d2d;
-    height: 250px;
+    height: 350px;
     width: 200px;
     display: flex;
     justify-content: center;

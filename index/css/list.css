@@ -4,6 +4,7 @@ body {
 
 button {
     cursor: pointer;
+    user-select: none;
 }
 
 #topContainer {
@@ -34,6 +35,7 @@ button {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+    user-select: none;
 }
 
 .buttonChoise {
@@ -88,3 +90,40 @@ button {
     width: 90%;
 }
 
+.dialog {
+    display: none;
+}
+
+.dialogContainer {
+    display: flex;
+    background-color: white;
+    border: solid 1px black;
+    padding: 5px;
+    flex-direction: column;
+    height: 100%;
+    align-content: flex-end;
+}
+
+.dialogObjectInfo {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+
+.ui-dialog-titlebar {
+    background-color: white;
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.buttonDialog {
+    width: 20%;
+    display: flex;
+    align-self: flex-end;
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+}
