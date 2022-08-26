@@ -2,14 +2,14 @@
 
 class Database 
 {
-    private $dbname   = 'adelyce';
-    private $username = 'postgres';
-    private $password = '01072018';
-
 
     public static function getConnection() {
+        $dbname   = 'adelyce';
+        $username = 'postgres';
+        $password = '01072018';
+        $host = 'localhost';
         try {
-            $pdo = new \PDO("pgsql:host=localhost;dbname=adelyce", 'postgres',  '01072018');
+            $pdo = new \PDO("pgsql:host=$host;dbname=$dbname", $username,  $password);
         } catch (Exception $e) {
             print $e->getMessage() . "\n";
         }
